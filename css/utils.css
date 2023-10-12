@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=EB+Garamond:ital,wght@1,400;1,600&family=Roboto&display=swap');
+
+/* font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+:root {
+    --main-bg-color: orange;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.contact-form {
+    padding-left: 60px;
+}
+
+.form-box>input,
+textarea {
+    width: 52vw;
+    padding: 0px 10px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 10px;
+}
